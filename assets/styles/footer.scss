@@ -1,0 +1,52 @@
+.topline_footer {
+    border-top: 2px solid black;
+    margin-bottom: 2%;
+}
+
+
+footer{
+.toto{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Peignot";
+
+   
+        .blocks_footer{
+            list-style:none;
+            .reseaux{
+                height: 20px;
+                width: 20px;
+                margin-bottom: 7px;
+                margin-right: 5px;
+            }
+        }
+        .links{
+            text-decoration:none;
+            color: black;
+            &:hover {
+                color:#DBB51D;
+            }
+        }
+        .block_credit_card{
+            display: flex;
+            .list_logo_card{  
+                margin-right: 12%;
+            }
+            list-style: none;
+        .logo_credit_card{
+            width: 40px;
+        }
+    }
+}
+#copyright{
+    text-align: center;
+    p{
+        font-size: 15px;
+    }
+}
+}
+
+    

@@ -1,0 +1,17 @@
+@use "nav";
+@use "footer";
+@use 'about';
+// @use "carousel";
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+// @import 'carousel';
+@font-face{
+    font-family : 'Peignot';
+    src : url('/public/font/Peignot.ttf') format('truetype');
+}
+body {
+    background-color: whitesmoke;
+}
+
+

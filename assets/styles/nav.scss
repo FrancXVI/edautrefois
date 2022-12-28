@@ -1,0 +1,64 @@
+.logo {
+    width: 50vh;
+    height: 28vh;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.topline {
+    border-top: 2px solid black;
+    margin-bottom: 2%;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+    li> .menu-link {
+        text-decoration: none;
+        font-family: 'peignot';
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: black;
+        padding: 1rem;
+        transition: all 0.1s ease-in-out;
+        &:hover {
+            color: #DBB51D ;
+        }
+    }
+}
+
+.nav-dropdown-content {
+    list-style: none;
+}
+
+.dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: #DBB51D;
+  border-radius: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    .annee_produits{
+        width: 160px;
+    text-decoration: none;
+    :hover{
+        color:white;
+    }
+    }
+}
+
+.categories_title{
+    text-decoration: none;
+    font-family: 'peignot';
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: black;
+}
